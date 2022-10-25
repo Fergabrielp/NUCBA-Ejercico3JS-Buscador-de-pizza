@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, "sans-serif";
+}
+
+body {
+  background-image: url("/img/Pizza-bg.png");
+  background-color: #ec8744ee;
+  background-size: 7rem;
+  background-repeat: repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  gap: 2rem;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  width: 30rem;
+  height: 9rem;
+  border-radius: 41px;
+  background: #e4e4e4e7;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.47);
+}
+h1 {
+  font-size: 1.8rem;
+}
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0.5rem 1rem;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #f5690bee;
+  transition-duration: 0.5s;
+}
+
+button:focus {
+  background-color: #ec680fee;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+input {
+  width: 10rem;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1.2rem;
+  background-color: #fff;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.error {
+  background-color: #000;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pizza-name {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pizza-value {
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.5rem 2.5rem;
+  background-color: #ec8744ee;
+}
+
+.pizza-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-ingredients {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 35rem;
+  padding: 2rem;
+  border-radius: 41px;
+  background: #e4e4e4e7;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.47);
+}
